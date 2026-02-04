@@ -1,132 +1,108 @@
-🎫 IT Support Tickets 
+## 🎫 IT Support Tickets 
 
-This section documents real-world IT support tickets completed in a simulated corporate environment.
-Each ticket follows professional ITSM practices, including issue identification, troubleshooting, resolution, and documentation.
+Documented and resolved realistic **IT support tickets** in a simulated enterprise environment, following **ITIL-style workflows**. Focused on **user support, troubleshooting, security, and clear documentation** aligned with corporate IT standards.
 
-🔧 Environment
+---
 
-Windows 10 / Windows 11
+## 🔧 Technical Environment
+- **Operating Systems:** Windows 10, Windows 11, Windows Server  
+- **User Management:** Active Directory, Local Users & Groups  
+- **Productivity:** Microsoft 365 (Outlook, OneDrive, Teams)  
+- **Networking:** TCP/IP, DNS, DHCP, IP configuration  
+- **Security:** Account lockout policies, least privilege, Windows Firewall  
+- **Tools:** PowerShell (basic), Event Viewer, Command Prompt  
 
-Windows Server (Active Directory)
+---
 
-Microsoft 365 (Outlook, OneDrive, Teams)
+## 📌 Ticket 001 — Password Reset & Account Lockout
+**Problem:**  
+User account locked after multiple failed login attempts.
 
-Local & Domain User Accounts
+**Resolution Summary:**
+- Verified user identity according to security procedures  
+- Identified account lockout status  
+- Reset password and enforced password change at next login  
+- Restored secure user access and confirmed resolution  
 
-PowerShell (basic)
+**Key Skills / Keywords:**  
+Active Directory, account lockout, password reset, identity verification, IT security, user support
 
-Networking (TCP/IP, DNS, DHCP)
+---
 
-📌 Ticket 001 — Password Reset & Account Lockout
+## 📌 Ticket 002 — Outlook Not Syncing (Microsoft 365)
+**Problem:**  
+User reports emails not syncing in Outlook desktop client.
 
-Issue:
-User unable to log in after multiple failed password attempts.
+**Resolution Summary:**
+- Verified network connectivity and Microsoft 365 license  
+- Recreated Outlook user profile  
+- Enabled cached Exchange mode  
+- Confirmed successful mailbox synchronization  
 
-Actions Taken:
+**Key Skills / Keywords:**  
+Microsoft 365, Outlook troubleshooting, Exchange, user profiles, email support
 
-Verified user identity following security procedures
+---
 
-Identified account lockout status
+## 📌 Ticket 003 — New Employee Onboarding
+**Problem:**  
+Provision IT access and workstation for a new employee.
 
-Reset password and enforced password change at next login
+**Resolution Summary:**
+- Created user account in Active Directory  
+- Assigned Microsoft 365 license  
+- Configured Outlook and OneDrive  
+- Applied standard security and access policies  
 
-Confirmed successful authentication
+**Key Skills / Keywords:**  
+User onboarding, account provisioning, Active Directory, Microsoft 365, access management
 
-Skills Demonstrated:
-Account security, Active Directory / Local Users, user support, documentation
+---
 
-📌 Ticket 002 — Outlook Not Syncing (Microsoft 365)
+## 📌 Ticket 004 — Software Installation Restriction
+**Problem:**  
+User unable to install business software due to permission restrictions.
 
-Issue:
-Outlook client not syncing emails with Microsoft 365 mailbox.
+**Resolution Summary:**
+- Reviewed user permissions and security policies  
+- Installed software using administrator credentials  
+- Maintained standard user privileges following least-privilege principles  
 
-Actions Taken:
+**Key Skills / Keywords:**  
+Windows permissions, least privilege, endpoint security, software deployment
 
-Checked network connectivity
+---
 
-Verified account licensing
+## 📌 Ticket 005 — Network Connectivity Issue
+**Problem:**  
+User reports **No Internet access** on Windows workstation.
 
-Rebuilt Outlook profile
+**Resolution Summary:**
+- Diagnosed network configuration using `ipconfig` and `ping`  
+- Flushed DNS cache  
+- Reset network adapter  
+- Restored full network connectivity  
 
-Re-enabled cached exchange mode
+**Key Skills / Keywords:**  
+Networking fundamentals, TCP/IP, DNS, connectivity troubleshooting, Windows networking
 
-Skills Demonstrated:
-Microsoft 365, Outlook troubleshooting, user profile management
+---
 
-📌 Ticket 003 — New Employee Onboarding
-
-Issue:
-Prepare workstation and accounts for a new employee.
-
-Actions Taken:
-
-Created user account in Active Directory
-
-Assigned Microsoft 365 license
-
-Configured Outlook and OneDrive
-
-Applied standard security policies
-
-Skills Demonstrated:
-User provisioning, onboarding procedures, access management, security best practices
-
-📌 Ticket 004 — Software Installation Restriction
-
-Issue:
-User unable to install required software due to permission restrictions.
-
-Actions Taken:
-
-Reviewed user privilege level
-
-Explained least-privilege security model
-
-Installed software using admin credentials
-
-Ensured user retained standard permissions
-
-Skills Demonstrated:
-Endpoint security, least privilege, Windows user roles
-
-📌 Ticket 005 — Network Connectivity Issue
-
-Issue:
-User reports “No Internet access”.
-
-Actions Taken:
-
-Ran ipconfig and ping diagnostics
-
-Flushed DNS cache
-
-Reset network adapter
-
-Restored network connectivity
-
-Skills Demonstrated:
-Networking fundamentals, TCP/IP, DNS troubleshooting
-
-📌 Ticket 006 — Windows Firewall Blocking Application
-
-Issue:
+## 📌 Ticket 006 — Windows Firewall Blocking Application
+**Problem:**  
 Business application blocked by Windows Firewall.
 
-Actions Taken:
+**Resolution Summary:**
+- Identified blocked application and required port  
+- Created inbound firewall rule  
+- Tested application functionality  
+- Ensured compliance with security standards  
 
-Identified blocked port and application
+**Key Skills / Keywords:**  
+Windows Firewall, inbound rules, ports, security troubleshooting
 
-Created inbound firewall rule
+---
 
-Tested application connectivity
-
-Verified security compliance
-
-Skills Demonstrated:
-Firewall configuration, security awareness, troubleshooting
-
-🔗 Related
-
-📂 Screenshots & Logs
-
-📘 Project Overview
+## 🔗 Project Resources
+- 📘 **Project Overview:** `Project-Overview.md`  
+- 📂 **Evidence:** Screenshots, logs, and configurations  
