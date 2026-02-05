@@ -104,5 +104,4 @@ Windows Firewall, inbound rules, ports, security troubleshooting
 ---
 
 ## 🔗 Project Resources
-- 📘 **Project Overview:** `Project-Overview.md`  
 - 📂 **Evidence:** Screenshots, logs, and configurations  
